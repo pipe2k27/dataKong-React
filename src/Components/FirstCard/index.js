@@ -18,10 +18,6 @@ export default function FirstCard() {
         alt="blob"
         className="blob1"
       />
-      <img
-        src={process.env.PUBLIC_URL + '/images/dataKongLogoBlue.png'}
-        className="logoTitle"
-      ></img>
 
 
       <h1>Data out of the way!</h1>
@@ -34,6 +30,11 @@ export default function FirstCard() {
         alt="data science"
         className="dataScience"
       />
+      <img
+        src={process.env.PUBLIC_URL + '/images/dataKongLogoBlue.png'}
+        className="logoTitle"
+      ></img>
+
     </div>
   );
 }
