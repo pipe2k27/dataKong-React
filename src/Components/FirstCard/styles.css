@@ -1,0 +1,26 @@
+.first-card{
+    position: relative;
+    padding: 40px 5px;
+    top: 65px;
+}
+
+.blob1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    max-width: 90%;
+}
+.dataScience{
+    width: 250px;
+    margin: 50px 0;
+    display: block;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+
+}
+.description{
+    width: 800px;
+    max-width: 90%;
+}
