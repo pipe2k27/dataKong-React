@@ -31,7 +31,7 @@ export default function FirstCard() {
         className="dataScience"
       />
       <img
-        src={process.env.PUBLIC_URL + '/images/dataKongLogoBlue.png'}
+        src={process.env.PUBLIC_URL + '/images/aidafyLogo.png'}
         className="logoTitle"
       ></img>
 

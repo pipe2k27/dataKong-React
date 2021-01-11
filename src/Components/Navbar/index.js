@@ -15,7 +15,7 @@ export default function Navbar() {
     <div className="header" id="header">
       <Link to="/">
         <img
-          src={process.env.PUBLIC_URL + '/images/dataKongLogo.png'}
+          src={process.env.PUBLIC_URL + '/images/aidafyLogo.png'}
           alt="Wibson"
           className="logo-word"
         ></img>

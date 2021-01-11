@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className='footer'>
       <img
-        src={process.env.PUBLIC_URL + '/images/dataKongLogo.png'}
+        src={process.env.PUBLIC_URL + '/images/aidafyLogo.png'}
         className="footerLogo"
         alt='data kong'
       ></img>
