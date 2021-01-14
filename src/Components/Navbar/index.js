@@ -28,6 +28,10 @@ export default function Navbar() {
         <Link className="global-link nav-element" to="/start">
           Contact Us
         </Link>
+        <Link className="global-link nav-element" to="/privacy">
+          Privacy Policy
+        </Link>
+
       </div>
       <i onClick={handleClick} className="fas fa-bars nav-bar-icon"></i>
     </div>

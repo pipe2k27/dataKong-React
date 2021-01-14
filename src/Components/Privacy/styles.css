@@ -1,58 +1,12 @@
-.first-card{
+.privacy{
     position: relative;
     padding: 40px 5px;
     top: 65px;
+    max-width: 850px;
+    margin-bottom: 120px;
 }
 
-.blob3{
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-    max-width: 90%;
-    transform: rotateY(180deg);
-}
-.dataScience3{
-    width: 250px;
-    margin: 5px 0;
-    display: block;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
-
-}
-
-.dataScience4{
-    width: 150px;
-    margin: 50px 0 100px;
-    display: block;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
-
-}
-
-.description{
-    width: 800px;
-    max-width: 90%;
-}
-
-.logoTitle{
-    width: 250px;
-    display: block;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
-}
-
-.mail{
-    height: 50px;
-    width: 200px;
-    border-radius: 7px;
-    border: none;
-    text-align: center;
-    margin-left: 60px;
-    margin-bottom: 40px;
-    background-color: #222222;
-    color: white;
+.paragraph{
+    margin-bottom: 19px;
+    line-height: 1.7em;
 }

@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar'
 import FirstCard from './Components/FirstCard'
 import SecondCard from './Components/SecondCard'
 import Contact from './Components/Contact'
+import Privacy from './Components/Privacy'
+
 
 import Footer from './Components/Footer'
 
@@ -21,6 +23,9 @@ function App() {
           </Route>
           <Route path='/start'>
             <Contact />
+          </Route>
+          <Route path='/privacy'>
+            <Privacy />
           </Route>
           <Footer />
         </div>
