@@ -11,10 +11,10 @@ export default function Footer() {
       <img
         src={process.env.PUBLIC_URL + '/images/aidafyLogo.png'}
         className="footerLogo"
-        alt='data kong'
+        alt='Aidafy'
       ></img>
-      <p>info@datakong.com</p>
-      <p>®DataKong</p>
+      <p>info@aidafy.com</p>
+      <p>®Aidafy</p>
     </div>
   );
 }
