@@ -15,3 +15,16 @@ z-index: 2;
 .footerLogo{
     width: 350px;
 }
+
+.wallLink{
+    text-decoration: none;
+    color: rgb(148, 158, 12);
+transition: all 0.22s ease-in-out;
+font-size: 1.0rem;
+}
+
+.wallLink:hover{
+    text-decoration: none;
+    color: rgb(224, 224, 98);
+    font-size: 1.02rem;
+}
