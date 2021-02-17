@@ -34,12 +34,6 @@ export default function FirstCard() {
         src={process.env.PUBLIC_URL + '/images/aidafyLogo.png'}
         className="logoTitle"
       ></img>
-
-<div className='ot-form-wrapper'>
-    <iframe src='https://privacyportaltrain2.onetrust.com/webform/b421da9c-28bc-4a90-83d8-d76ad2125908/f9f70af5-219d-4733-87cc-9dec7b76f15b'>
-    </iframe>
-</div>
-
     </div>
   );
 }
