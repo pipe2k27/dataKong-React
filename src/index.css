@@ -1,4 +1,4 @@
-* {
+#root * {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -42,7 +42,6 @@ h2 {
   font-family: 'Titillium Web', sans-serif;
 }
 
-
 h3 {
   font-size: 1.8rem;
   font-family: 'Titillium Web', sans-serif;
@@ -72,7 +71,7 @@ h4 {
   color: rgb(241, 241, 241);
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
@@ -100,13 +99,12 @@ h4 {
   width: 250px;
   border-radius: 7px;
   margin: 20px 0;
-  -webkit-box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.21);
--moz-box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.21);
-box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.21);
-
+  -webkit-box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.21);
 }
 
-.buttonIcon{
+.buttonIcon {
   position: absolute;
   right: 40px;
   top: 50%;
@@ -114,17 +112,15 @@ box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.21);
   font-size: 1.15rem;
   transition: all 0.3s ease-out;
   color: #515070;
-
-
 }
 
 .button:hover {
   background-color: #070542;
   color: white;
-  font-size: 1.40rem;
+  font-size: 1.4rem;
 }
 
-.button:hover .buttonIcon{
+.button:hover .buttonIcon {
   right: 20px;
   transform: translateY(-50%) rotate(0deg);
   color: white;
@@ -200,15 +196,14 @@ box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.21);
   padding: 50px 0;
 }
 
-
 /* grid */
 
-.grid2{
+.grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.grid3{
+.grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -225,13 +220,13 @@ box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.21);
     left: 50%;
     transform: translateX(-50%);
   }
-  h1{
+  h1 {
     font-size: 2.5rem;
   }
 }
 
 @media (max-width: 680px) {
-  .grid3{
+  .grid3 {
     grid-template-columns: 1fr;
   }
 }
